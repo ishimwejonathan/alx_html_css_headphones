@@ -1,0 +1,79 @@
+/* Hero background */
+.hero {
+  height: 100vh;
+  background: url("imagess/images/headphones_hero_1.jpg") no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;  /* align items to the left */
+  align-items: center;
+  gap: 780px;  /* space between logo and nav */
+}
+
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: red;
+  
+}
+
+/* Hero text content */
+.hero-content p:first-of-type {
+  margin-top: 0; /* Remove default top margin on the first paragraph */
+  margin-bottom: 100px; /* Adjust bottom margin if needed */
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: auto;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #ff4f5a;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+ 
+ margin-top: 20px; 
+}
+
+.btn-primary:hover {
+  background-color: #e63e4a;
+  
+  
+}
+.logo img {
+  width: 100px;  /* change 100px to whatever smaller size you want */
+  height: auto;  /* keeps the image’s aspect ratio */
+}
+.main-nav a {
+  font-size: 10px;
+   /* Adjust this value to make the text smaller or bigger */
+}
+.logo {
+  margin-left: 20px; /* adjust as needed */
+}
