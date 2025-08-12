@@ -1,0 +1,94 @@
+<link rel="stylesheet" href="holberton_school-icon/style.css">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Headphones — What we do</title>
+
+  <!-- ICON FONT CSS: path depends on where you extracted the zip -->
+  <link rel="stylesheet" href="icons/style.css">
+
+  <!-- Page CSS -->
+  <link rel="stylesheet" href="1-styles.css">
+</head>
+<body>
+
+  <!-- ===== Hero (simple placeholder, replace with your hero if you already have one) ===== -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <img src="imagess/images/logo_headphones.png" alt="Headphones logo" class="logo">
+        <nav class="main-nav">
+          <a href="#what-we-do">What we do</a>
+          <a href="#results">Our results</a>
+          <a href="#contact">Contact us</a>
+        </nav>
+      </div>
+
+      <div class="hero-content">
+        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+        <p class="lead">consectetur adipiscing elit.</p>
+        <a class="btn-primary" href="#what-we-do">Explore services</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== WHAT WE DO SECTION ===== -->
+  <section id="what-we-do" class="what-we-do">
+    <div class="container">
+      <h2>What we do…</h2>
+      <p class="section-intro">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+
+      <div class="services">
+        <article class="service-card">
+          <!-- Replace the class below with the icon class found in icons/demo.html if different -->
+          <span class="service-icon" aria-hidden="true">
+            <i class="holberton_school-icon-ic_sound"></i>
+          </span>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">
+            <i class="holberton_school-icon-ic_music"></i>
+          </span>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">
+            <i class="holberton_school-icon-ic_video"></i>
+          </span>
+         
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">
+            <i class="holberton_school-icon-ic_hearing"></i>
+          </span>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- optional footer -->
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Headphones — All rights reserved</div>
+  </footer>
+
+  <script>
+    // small UX nicety: set year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
