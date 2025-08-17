@@ -30,7 +30,7 @@ body{
 .hero{
   background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.0));
   color: white;
-  padding: 28px 0 56px;
+  padding: 28px 0 500px;
   background-image: url('imagess/images/headphones_hero_1.jpg');
   background-size: cover;
   background-position: center;
@@ -43,7 +43,7 @@ body{
 }
 .logo { width: 110px; }
 .main-nav a{ color: white; margin-left:18px; text-decoration:none; font-weight:600; font-size:14px; }
-.hero-content{ text-align:center; margin-top:40px; color:white; }
+.hero-content{ text-align:center; margin-top:100px; color:white; }
 .hero-content h1{ font-size:36px; margin:0 0 8px; }
 .lead{ margin:0 0 18px; opacity:0.95 }
 
@@ -113,3 +113,80 @@ body{
   .hero-content h1{ font-size:26px; }
   .main-nav a{ display: none; } /* simplify nav on small screens, change to hamburger later */
 }
+.results {
+  background: url("imagess/images/headphones_hero_2.jpg") no-repeat center center/cover;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.results .results-text {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.results-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  text-align: center;
+}
+
+.pentagon {
+  position: relative;
+  display: inline-block;
+}
+
+.pentagon img {
+  width: 120px; /* adjust size to match your design */
+  display: block;
+}
+
+.percentage {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.label {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+/* Contact form */
+.contact {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input, .contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+}
+.contact button {
+  align-self: center;
+}
+.site-footer{
+  text-align: center;
+}
+
